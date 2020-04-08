@@ -1,0 +1,71 @@
+body {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0, 0, 5);
+    font-family: 'Quicksand', sans-serif;
+
+
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.788);
+    text-align: center;
+}
+
+header img {
+    padding: 1em;
+}
+
+header nav a {
+    color: seashell;
+    text-decoration: none;
+    padding: .5em;
+} 
+
+#a {
+    height: calc(100vh - 150px);
+    background: url("images/baner-1.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#b {
+    height: calc(100vh - 150px);
+    background: url("images/baner-2.jpg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#c {
+    height: calc(100vh - 150px);
+    background: url("images/baner-3.jpeg") no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wraper {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+section{
+    background-color: rgba(0, 0, 0, 0.788);
+    text-align: center;
+}
+
+section img {
+    padding: 1em;
+}
+
+p {
+    color: beige;
+    padding: 1em; 
+}
+
+ul {
+    text-align: justify;
+}
+
+.row {
+    display: flex;
+}
