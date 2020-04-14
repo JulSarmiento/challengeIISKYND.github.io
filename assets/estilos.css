@@ -3,8 +3,6 @@ body {
     margin: 0;
     background-color: rgba(0, 0, 5);
     font-family: 'Quicksand', sans-serif;
-
-
 }
 
 header {
@@ -57,7 +55,12 @@ section img {
     padding: 1em;
 }
 
+.text-h-color {
+    color: beige;
+}
+
 p {
+    text-align: justify;
     color: beige;
     padding: 1em; 
 }
@@ -68,4 +71,10 @@ ul {
 
 .row {
     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.overflow {
+    overflow-x: auto;
 }
